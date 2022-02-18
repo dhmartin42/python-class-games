@@ -6,9 +6,9 @@ Statuses of games:
     Blackjack:
         Original game in folder
         Incomplete
-    Guess the Number:
+    Guess the Number: This originally used a gui, and output to the console. I went/am going (depending on when you read this) on the remaster. 
         Original game in folder
-        Incomplete
+        Rewrite complete and working, and is now simpler than rpsls
     Memory:
         Original game in folder
         Incomplete
@@ -18,7 +18,7 @@ Statuses of games:
     Ricerocks:
         Original game in folder
         Incomplete
-    Rock, Paper, Scissors, Lizard, Spock:
+    Rock, Paper, Scissors, Lizard, Spock: This was the first project, and originally didn't interact. I made it interact. *Cracks knuckles menacingly* 
         Original game in folder
         Rewrite complete and working
     Spaceship:
