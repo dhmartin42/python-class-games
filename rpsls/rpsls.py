@@ -98,9 +98,34 @@ def rpsls(player_choice):
     else: 
         print ("whoops! you are not supposed to see this.")
 
-# the required test cases     
-rpsls("rock")
-rpsls("Spock")
-rpsls("paper")
-rpsls("lizard")
-rpsls("scissors")
+def help():
+    print("Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitates lizard, \nlizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors.")
+
+
+def main():
+    # main game loop, infinite loops for the win! 
+    while (True): 
+        
+        player_choice = input("Please enter rock, paper, scissors, lizard or spock. If You want the rules, type help, if you don't want to play type quit: ")
+
+        if (player_choice.lower() == 'rock') \
+            or (player_choice.lower() == 'paper') \
+            or (player_choice.lower() == 'scissors') \
+            or (player_choice.lower() == 'lizard') \
+            or (player_choice.lower() == 'spock'): 
+
+            rpsls(player_choice)
+
+        elif (player_choice.lower() == 'help'):
+            help()
+
+        elif (player_choice.lower() == 'quit'):
+            break
+
+if __name__ == "__main__":
+    main()
+
+
+
+
+
