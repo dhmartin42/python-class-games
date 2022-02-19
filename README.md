@@ -2,6 +2,8 @@
 This is a rewrite of my MOOC python games class using python. each game is in a different directory, and the file orig_game.py has the original code of the game using the classes simplegui package to control the game functions. The games that need it will use the arcade library. Also, for the spaceship and ricerocks games, I will be using 
 different sprites, as this was a request of the course instructors. 
 
+It goes without saying hopefully that the orig_game.py games will not run, as the simplegui import is based on a web application. I included them to have reference of the older works as I am converting them. 
+
 Statuses of games: 
     Blackjack:
         Original game in folder
